@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+body { margin: 0; padding: 0; box-sizing: border-box; }
+* { box-sizing: inherit; }
+h2 { color: #333; border-bottom: 2px solid #00d2ff; padding-bottom: 10px; display: inline-block; margin-bottom: 20px; }
+button { transition: background 0.3s, transform 0.1s; }
+button:active { transform: scale(0.98); }
+input:focus, select:focus { outline: none; border-color: #00d2ff; box-shadow: 0 0 0 2px rgba(0, 210, 255, 0.2); }
